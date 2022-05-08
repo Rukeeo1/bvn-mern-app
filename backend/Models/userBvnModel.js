@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 const userBvnSchema = mongoose.Schema(
   {
-    text: {
+    bvn: {
       type: String,
       required: [true, 'Empty BVN in request'],
     },
